@@ -12,13 +12,11 @@
       margin: 0;
       padding: 0;
     }
-
-    h1 a {
+      h1 a {
       text-decoration: none;
       color: inherit;
       cursor: pointer;
     }
-
     header {
       background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
                   url('Glass.png');
@@ -30,7 +28,6 @@
       text-align: center;
       border-bottom: 2px solid #400000;
     }
-
     nav {
       background-color: #1a1a1a;
       display: flex;
@@ -38,7 +35,6 @@
       flex-wrap: wrap;
       border-bottom: 1px solid #333;
     }
-
     nav a {
       color: #ccc;
       text-decoration: none;
@@ -46,29 +42,24 @@
       display: block;
       transition: background 0.3s, color 0.3s;
     }
-
     nav a:hover {
       background-color: #400000;
       color: #fff;
     }
-
     .content {
       padding: 2rem;
       max-width: 800px;
       margin: auto;
       text-align: center;
     }
-
     .content h2 {
       color: #cc4444;
     }
-
     .content p {
       font-size: 1.1rem;
       line-height: 1.6;
       color: #aaa;
     }
-
     footer {
       background-color: #111;
       color: #666;
@@ -84,7 +75,6 @@
     <h1><a href="Ashe.html">Bienvenido al mundo de Amsha</a></h1>
     <p>Sombras, arte y melodía en un solo rincón </p>
   </header>
-
   <nav>
     <a href="Dibujos.html">Dibujos</a>
     <a href="Musica.html">Música</a>
@@ -92,14 +82,12 @@
     <a href="Proyectos.html">Proyectos</a>
     <a href="Blog.html">Blog</a>
   </nav>
-
   <div class="content">
     <h2>Quién soy</h2>
     <p>
       Soy Amshard, un rarito que escribe historias, compone música y hace dibujos, aunque sigue aprendiendo...
     </p>
   </div>
-
   <footer>
     &copy; 2025 - Ashe Áuster. Todos los derechos reservados, o algo...
   </footer>
