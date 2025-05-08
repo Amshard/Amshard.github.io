@@ -1,1 +1,1 @@
-<Prueba>
+<title>Prueba</title>
