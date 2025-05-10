@@ -21,9 +21,13 @@
     }
 
     header {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                  url('Glass.png');
+      background-size: cover;
+      background-position: center;
       background-color: #111;
       color: #cc4444;
-      padding: 2rem;
+      padding: 2rem; 
       text-align: center;
       border-bottom: 2px solid #400000;
     }
@@ -73,13 +77,14 @@
       padding: 1rem;
       margin-top: 2rem;
       border-top: 2px solid #400000;
+      font-family:Arial, Helvetica, sans-serif;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1><a href="Ashe.html">Bienvenido al mundo ilustrado de Amsha</a></h1>
-    <p>Sombras, arte y melodía en un solo rincón</p>
+    <h1><a href="index.html">Bienvenido al mundo ilustadro de Ashe</a></h1>
+    <p>Sombras, arte y melodía en un solo rincón </p>
   </header>
 
   <nav>
@@ -91,14 +96,30 @@
   </nav>
 
   <div class="content">
-    <h2>Dibujos</h2>
+    <h2>Quién soy</h2>
     <p>
-      Aquí es mi galeria de arte personal, algúnos dibujos son hechos a mano, y o tros en digital. Tambien habrá algunos modelos en 3D.
+      Aquí encontraran mi galeria de arte, algunas son a mano y otras en digtal. 
+      En diversos estilos como Pixel Art, tinta y demás.
+      Sigo aprendiendo y espero mejorar con el tiempo.
     </p>
+    <section class="galeria-grid">
+  <div class="obra">
+    <a href="obra1.html">
+      <img src="imagenes/ilustracion1.jpg" alt="Título de la obra 1">
+    </a>
+    <p>Título 1</p>
   </div>
 
+  <div class="obra">
+    <a href="obra2.html">
+      <img src="imagenes/ilustracion2.jpg" alt="Título de la obra 2">
+    </a>
+    <p>Título 2</p>
+  </div>
+</section>
+  </div>
   <footer>
-    &copy; 2025 - Ashe Áuster. Todos los derechos reservados, o algo...
+    CC0 2025 - Ashe Áuster.
   </footer>
 </body>
 </html>
