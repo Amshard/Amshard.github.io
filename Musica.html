@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El universo de cenizas</title>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'IM Fell English SC', serif;
+      background-color: #0b0b0b;
+      color: #ccc;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 a {
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+    }
+
+    header {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                  url('Glass.png');
+      background-size: cover;
+      background-position: center;
+      background-color: #111;
+      color: #cc4444;
+      padding: 2rem; 
+      text-align: center;
+      border-bottom: 2px solid #400000;
+    }
+
+    nav {
+      background-color: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #333;
+    }
+
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      padding: 1rem 2rem;
+      display: block;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #400000;
+      color: #fff;
+    }
+
+    .content {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .content h2 {
+      color: #cc4444;
+    }
+
+    .content p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #aaa;
+    }
+
+    footer {
+      background-color: #111;
+      color: #666;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      border-top: 2px solid #400000;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">Bienvenido al mundo musical de Ashe</a></h1>
+    <p>Sombras, arte y melodía en un solo rincón </p>
+  </header>
+
+  <nav>
+    <a href="Dibujos.html">Dibujos</a>
+    <a href="Musica.html">Música</a>
+    <a href="Escritura.html">Escritura</a>
+    <a href="Proyectos.html">Proyectos</a>
+    <a href="Blog.html">Blog</a>
+  </nav>
+
+  <div class="content">
+    <h2>Fonoteca</h2>
+    <p>
+      Aquí encontraras algunos de mis trabajos musicales. Aun sigo em proceso de experimentación y aprendizaje. No dudes en dejarme un comentario o sugerencia.
+    </p>
+    <section class="musica">
+  <h2>Mi música</h2>
+    <div class="cancion">
+    <h3>Cristales</h3>
+    <p>Esta cación es la primera que he hecho, pueden notar alguna saturación de sonidos y desincronización.
+      <br>Creado para un proyecto de un amigo para ambientar una cueva de cristales. Hecho con el programa LMMS
+    </p>
+    <audio controls>
+      <source src="Crysta (mp3cut.net).mp3" type="audio/mpeg">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+  </div>
+
+  <div class="cancion">
+    <h3>Mesa</h3>
+    <p>Despues de varias otras canciones y experimentación, esta es una de las ultimas que he hecho y personalmente me agrada como quedó, espero esto muestre el proceso de mejoría y aprendizaje
+      <br>Creado para el mismo proyecto, esta vez para ambientar las mesetas altas e imponentes de montañas áridas. También desarrollado con el programa LMMS.
+    </p>
+    <audio controls>
+      <source src="mesa1 (mp3cut.net).mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</section>
+  </div>
+  <footer>
+    CC0 2025 - Ashe Áuster.
+  </footer>
+</body>
+</html>
