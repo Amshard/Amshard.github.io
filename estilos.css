@@ -72,10 +72,14 @@ audio {
 }
 
 .resena {
-  background-color: #1a1a1a;
-  padding: 1.5rem;
   margin-bottom: 1.5rem;
   border-left: 4px solid #800000;
+  background-color: #1c1c1c;
+  border: 1px solid #333;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
 }
 
 .resena h3 {
@@ -90,6 +94,6 @@ audio {
 
 .imagen-resena {
   max-width: 100%;
-  border-radius: 10px;
-  margin-bottom: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(200, 0, 0, 0.3)
 }
