@@ -71,29 +71,44 @@ audio {
   filter: brightness(0.9);
 }
 
-.resena {
-  margin-bottom: 1.5rem;
-  border-left: 4px solid #800000;
-  background-color: #1c1c1c;
-  border: 1px solid #333;
+.galeria-resenas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.tarjeta {
+  text-align: center;
+  background: #1a1a1a;
   padding: 1rem;
   border-radius: 10px;
-  text-align: center;
-  transition: transform 0.3s ease;
+  box-shadow: 0 0 10px rgba(100, 0, 0, 0.5);
+  transition: transform 0.2s ease;
 }
 
-.resena h3 {
-  margin-top: 0;
-  color: #e0e0e0;
+.tarjeta:hover {
+  transform: scale(1.05);
 }
 
-.resena .fecha {
-  color: #999;
-  font-size: 0.9rem;
+.tarjeta img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.resena-detalle {
+  padding: 2rem;
+  color: #ddd;
+  background: #111;
+  max-width: 800px;
+  margin: auto;
 }
 
 .imagen-resena {
-  max-width: 100%;
-  border-radius: 6px;
-  box-shadow: 0 0 10px rgba(200, 0, 0, 0.3)
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 10px;
 }
